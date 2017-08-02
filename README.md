@@ -16,14 +16,15 @@ The follwing files are included:
 5) From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## Working of the code
-•	Necessary packages are downloaded 
-•	The file is unzipped and the files are listed
-•	Train and test data set are loaded 
-•	The data set is merged using the rbind() and cbind() function
-•	Features names are loaded into R
-•	Using grep()  function, only the measurements on the mean and standard deviation for each measurement are extracted 
-•	The activity names are read from feature.txt file
-•	These names are used to name the activities in the data set
-•	All the data set are merged
-•	Using the lapply() function , a second, independent tidy data set with the average of each variable for each activity and each subject is created 
-•	This is written as tidy.txt file using write.table()
+1.	Necessary packages are downloaded 
+2.	The file is unzipped and the files are listed
+3.	Train and test data set are loaded 
+4.	The data set is merged using the rbind() and cbind() function
+5.	Features names are loaded into R
+6.	Using grep()  function, only the measurements on the mean and standard deviation for each measurement are extracted 
+7.	The activity names are read from feature.txt file
+8.	These names are used to name the activities in the data set
+9.	All the data set are merged
+10.	Using the lapply() function , a second, independent tidy data set with the average of each variable for each activity and each subject is created 
+11.	This is written as tidy.txt file using write.table()
+
