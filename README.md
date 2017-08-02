@@ -26,5 +26,5 @@ The follwing files are included:
 8.	These names are used to name the activities in the data set
 9.	All the data set are merged
 10.	Using the lapply() function , a second, independent tidy data set with the average of each variable for each activity and each subject is created 
-11.	This is written as tidy.txt file using write.table()
+11.	This is written as clean.txt file using write.table()
 
